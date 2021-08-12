@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Piazzolla', serif;
+}
+
+:root{
+    --main-bg-color: #1e272e;
+    --main-color: #0097e6;
+}
+
+.main_section{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+.navbar a{
+    color: white;
+    padding: 10px
+}
+
+.navbar-nav{
+    float: right;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #1e272e;
+    color: white;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+.section_right img{
+    max-height: 40rem;
+    width: 35rem;
+    border-radius: 24px;
+}
+
+.section_left{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_left p {
+    font-size: 1.6rem;
+}
+
+.section_left h1{
+    font-size: 3.2rem;  
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.brand_color{
+    color: var(--main-color);
+}
+
+.btn_link {
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background-color: #fff;
+    text-decoration: none;
+    width: 25%;
+}

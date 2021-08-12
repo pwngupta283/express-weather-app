@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+    {{>header}}
+    <!-- Main section -->
+    <div class=" container-fluid mt-5 main_part">
+        <div class="row">
+            <div class=" col-lg-10 mx-auto">
+                <div class=" container-xl">
+                    <div class="row">
+                        <div class=" col-md-6 col-6">
+                            <div class="section_left">
+                                <p>Welcome to Weather App</p>
+                                <h1>Get the latest <span class="brand_color">Weather</span> info of your city</h1>
+                                <a class=" btn btn-md btn_link" href="/weather">Check Now</a>
+                            </div>
+                        </div>
+                        <div class=" col-6 colo-md-6">
+                            <div class="section_right">
+                                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="2000">
+                                            <img src="/images/bg3.jpg" class="d-block" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="/images/bg2.jpg" class="d-block" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="/images/bg4.jpg" class="d-block" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="/images/bg6.jpg" class="d-block" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="/images/bg7.jpg" class="d-block" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
