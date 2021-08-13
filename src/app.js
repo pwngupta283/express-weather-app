@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const hbs = require('hbs');
+const port = process.env.PORT || 5000;
 
 const staticPath = path.join(__dirname, '../public');
 const templatePath = path.join(__dirname, '../templates/views');
@@ -31,6 +32,6 @@ app.get("*", (req, res) => {
     res.send("404 error page");
 });
 
-app.listen("5000", () => {
-    console.log("Listening to the port on 5000");
+app.listen(port, () => {
+    console.log(`Listening to the port on ${port}`);
 })
